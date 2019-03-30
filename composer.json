@@ -34,9 +34,11 @@
         "laravel": {
             "providers": [
                 "Grechanyuk\\SmsDiscount\\SmsDiscountServiceProvider"
+                "Grechanyuk\\SmsDiscount\\MessageDiscountServiceProvider"
             ],
             "aliases": {
                 "SmsDiscount": "Grechanyuk\\SmsDiscount\\Facades\\SmsDiscount"
+                "MessageDiscount": "Grechanyuk\\SmsDiscount\\Facades\\MessageDiscount"
             }
         }
     }
