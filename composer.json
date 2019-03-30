@@ -1,5 +1,5 @@
 {
-    "name": "grechanyuk/SmsDiscount",
+    "name": "grechanyuk/smsdiscount",
     "description": "Package fo Laravel and iqsms.ru",
     "license": "MIT",
     "authors": [
@@ -9,7 +9,7 @@
         }
     ],
     "homepage": "https://github.com/grechanyuk/SmsDiscount",
-    "keywords": ["Laravel", "SmsDiscount"],
+    "keywords": ["Laravel", "SmsDiscount", "iqsms.ru"],
     "require": {
         "illuminate/support": "~5",
         "guzzlehttp/guzzle": "^6.3"
