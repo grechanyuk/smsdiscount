@@ -1,0 +1,43 @@
+{
+    "name": "grechanyuk/SmsDiscount",
+    "description": "Package fo Laravel and iqsms.ru",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Egor G.",
+            "email": "xorolllo@hotmail.com"
+        }
+    ],
+    "homepage": "https://github.com/grechanyuk/SmsDiscount",
+    "keywords": ["Laravel", "SmsDiscount"],
+    "require": {
+        "illuminate/support": "~5",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Grechanyuk\\SmsDiscount\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Grechanyuk\\SmsDiscount\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Grechanyuk\\SmsDiscount\\SmsDiscountServiceProvider"
+            ],
+            "aliases": {
+                "SmsDiscount": "Grechanyuk\\SmsDiscount\\Facades\\SmsDiscount"
+            }
+        }
+    }
+}
